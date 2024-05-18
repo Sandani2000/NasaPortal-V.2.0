@@ -1,0 +1,26 @@
+{
+  "name": "se3040-assignment02-sandani2000",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/V1F4A3D5)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd client && npm start",
+    "backend": "cd backend && npm start",
+    "dev": "concurrently \"npm run backend\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sliitcsse/se3040-assignment02-Sandani2000.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sliitcsse/se3040-assignment02-Sandani2000/issues"
+  },
+  "homepage": "https://github.com/sliitcsse/se3040-assignment02-Sandani2000#readme",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
